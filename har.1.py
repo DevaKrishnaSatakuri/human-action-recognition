@@ -9,10 +9,10 @@ from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.preprocessing import StandardScaler
 
 # Load CSV
-df = pd.read_csv("Training_set.csv")  # Columns: filename, label
+df = pd.read_csv("stanford40_openml.csv")  # Columns: filename, label
 
 # Image directory
-image_dir = "train"
+image_dir = "JPEGImages"
 # Preprocessing + feature extraction
 X = []
 y = []
