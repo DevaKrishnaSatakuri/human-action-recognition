@@ -12,3 +12,4 @@ for fname in os.listdir(image_dir):
 df = pd.DataFrame(data, columns=['filename', 'label'])
 df.to_csv("stanford40_full.csv", index=False)
 print("✅ Full CSV created with", len(df), "entries.")
+
