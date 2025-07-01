@@ -15,7 +15,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 
 # ===== CONFIG =====
 image_dir = "JPEGImages"
-csv_file = "stanford40_openml.csv"
+csv_file = "stanford40_full.csv"
 resize_dim = (128, 128)
 
 hog_params = {

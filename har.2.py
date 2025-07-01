@@ -11,8 +11,8 @@ from sklearn.model_selection import train_test_split
 from torchvision import models, transforms
 
 # ======== 1. Setup ============
-image_dir = "train"  # folder with all images
-csv_file = "Training_set.csv"  # contains filename + label
+image_dir = "JPEGImages"  # folder with all images
+csv_file = "stanford40_full.csv"  # contains filename + label
 
 df = pd.read_csv(csv_file)
 df.columns = df.columns.str.strip()  # Clean column names
