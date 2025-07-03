@@ -12,7 +12,7 @@ import joblib
 # === CONFIGURATION ===
 csv_path = "balanced_upsampled_dataset.csv"
 image_dir = "upsampled_images"
-model_dir = "models_ups"
+model_dir = "models_best"
 os.makedirs(model_dir, exist_ok=True)
 
 resize_dim = (128, 128)  # Only needed if resizing again
