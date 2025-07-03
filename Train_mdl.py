@@ -5,8 +5,8 @@ import numpy as np
 from skimage.feature import hog
 
 # === Config ===
-model_dir = "models_ds"
-image_path = "Image_13.jpg"
+model_dir = "models_best"
+image_path = "applauding_207.jpg"
 
 resize_dim = (128, 128)
 hog_params = {
